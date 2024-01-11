@@ -100,7 +100,7 @@
     </script>
     <div class="side" id="side">
         <div>
-            <img onclick="closesidebar()" src="image/Frame 3925closebtn.png" alt="close-btn">
+            <img onclick="closesidebar()" src="image/Frame 3925closebtn.png" alt="close-btn img-fluid">
         </div>
         <div class="">
             <a class="d-flex flex-column align-items-center text-decoration-none text-dark mb-5 fs-2 fw-bolder cursor-pointer ms-5 mt-5"
@@ -146,7 +146,7 @@
                 <div class="responsive d-xl-none mt-4 ">
                     <div class="icon">
                         <button class="icon  btn " onclick="opensidebar()">
-                            <img src="image/Hamburger.png" alt="Hamburger">
+                            <img src="image/Hamburger.png" alt="Hamburger" class="img-fluid">
                         </button>
                     </div>
                 </div>
@@ -156,71 +156,99 @@
                     <img class="m-lg-5 m-4" src="image/Lineline.png">
                     <h2 class="mt-lg-4 mt-2">JOIN US</h2>
                 </div>
-                <div class="container d-flex">
-                    <div class="container col-4 py-5">
+                <div class="container d-lg-flex">
+                    <div class="container col-lg-6 py-5">
                         <img src="image/Signup.png" class="img-fluid">
                     </div>
-                    <div class="col-6 p-5">
+                    <div class="container col-lg-5 p-lg-5 p-2">
                         <h1>Join us today 👋</h1>
-                        <p class="me-5">Clarity gives you the blocks and components you need to create a truly professional website.
+                        <p class="me-lg-5">Clarity gives you the blocks and components you need to create a truly
+                            professional website.
                         </p>
-                        <div>
-                            <button type="button" class="btn btn-dark btn-rounded form-control d-flex p-2 align-items-center">
-                                <img src="image/google 2.png" class="img-fluid px-4 ">
-                                <p class="px-4 pt-2"> Sign up with Google</p>
+                        <div class="d-grid gap-2">
+                            <button type="button" style="border-radius: 30px;"
+                                class="btn btn-dark d-flex align-items-center justify-content-center btn-block  ">
+                                <img src="image/google 2.png" class="img-fluid ">
+                                <p class="px-3 m-2"> Sign up with Google</p>
                             </button>
+                            <div>
+                                <p class="text-muted mt-3">First & Last Name</p>
+
+                                <input class="form-control bg-transparent border border-dark p-3"
+                                    style="border-radius: 30px;" type="text" id="name" name="name"
+                                    placeholder="i.e. Davon Lean">
+                            </div>
+                            <div>
+                                <p class="text-muted mt-3">Email Address</p>
+
+                                <input class="form-control bg-transparent border border-dark p-3"
+                                    style="border-radius: 30px;" type="email" id="email" name="email"
+                                    placeholder="i.e. davon@mail.com">
+                            </div>
+                            <div>
+                                <p class="text-muted mt-3">Password</p>
+
+                                <input class="form-control bg-transparent border border-dark p-3"
+                                    style="border-radius: 30px;" type="password" id="Password" name="Password"
+                                    placeholder="**********">
+                            </div>
+                            <div class="checkbox ">
+                                <label><input type="checkbox" name="remember"> Remember me</label>
+                            </div>
+                        </div>
+                        <button type="submit" style="border-radius: 30px;" class="btn btn-dark px-5 py-2 my-3">Create Account</button>
+                        <p>Don't have an account? <span style="color: blue;">Create free account</span></p>
+                    </div>
+                    
+
+
+                </div>
+
+            </div>
+            <div class=" footer" style="background-color: #64989B; color: white;">
+                <div class="container d-lg-flex flex-lg-row ">
+                    <div class="container px-5 px-lg-0">
+                        <img class="img-fluid mt-5" src="image/Logo (1).png" alt="logo">
+                    </div>
+                    <div class="container d-flex p-5">
+                        <div>
+                            <ul class="list-unstyled container px-lg-5">
+                                <li>Home</li>
+                                <li>About us</li>
+                                <li>Team</li>
+                                <li>What we do</li>
+                                <li>Contact</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="list-unstyled container px-lg-5">
+                                <li>More</li>
+                                <li>Projects</li>
+                                <li>Events</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="list-unstyled container px-5">
+                                <li>Connect</li>
+                                <li>Facebook</li>
+                                <li>Instagram</li>
+                                <li>Twitter</li>
+                                <li>Linkdeln</li>
+                            </ul>
                         </div>
                     </div>
+                    <div class="container mt-lg-5 px-2 pb-5 p-lg-0">
+                        <div>
+                            <h2>Subscribe to get latest updates</h2>
+                        </div>
+                        <div class="">
+                            <input class="btn bg-white text-dark" type="email" id="email" name="email"
+                                placeholder="Your email">
+                            <button class="btn bg-white">Subscribe</button>
+                        </div>
+                    </div>
+
                 </div>
-
-
             </div>
-
-        </div>
-        <div class=" footer" style="background-color: #64989B; color: white;">
-            <div class="container d-lg-flex flex-lg-row ">
-                <div class="container px-5 px-lg-0">
-                    <img class="img-fluid mt-5" src="image/Logo (1).png" alt="logo">
-                </div>
-                <div class="container d-flex p-5">
-                    <div>
-                        <ul class="list-unstyled container px-lg-5">
-                            <li>Home</li>
-                            <li>About us</li>
-                            <li>Team</li>
-                            <li>What we do</li>
-                            <li>Contact</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul class="list-unstyled container px-lg-5">
-                            <li>More</li>
-                            <li>Projects</li>
-                            <li>Events</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul class="list-unstyled container px-5">
-                            <li>Connect</li>
-                            <li>Facebook</li>
-                            <li>Instagram</li>
-                            <li>Twitter</li>
-                            <li>Linkdeln</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="container mt-lg-5 px-2 pb-5 p-lg-0">
-                    <div>
-                        <h2>Subscribe to get latest updates</h2>
-                    </div>
-                    <div class="">
-                        <input class="btn bg-white text-dark" type="email" id="email" name="email"
-                            placeholder="Your email">
-                        <button class="btn bg-white">Subscribe</button>
-                    </div>
-                </div>
-
-            </div>
-        </div>
     </main>
 </body>
