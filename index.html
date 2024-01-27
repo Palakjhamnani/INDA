@@ -19,7 +19,14 @@
             document.getElementById("side").style.display = "none";
             document.getElementById("body").style.display = "block";
         }
-
+        document.addEventListener('scroll' , () =>{
+            const nav = document.querySelector('nav');
+            if(window.scrollY >0){
+                nav.classList.add('scrolled');
+            }else{
+                header.classList.remove('scrolled');
+            }
+        })
     </script>
     <div class="side" id="side">
         <div>
@@ -43,10 +50,10 @@
         </div>
     </div>
     <main id="body">
-        <div class=" sticky-top  bg-white">
+        <div class=" sticky-top navbar-fixed-top nav">
             <div class="container d-flex flex-row justify-content-between px-3 ">
                 <div class="w-150 h-80">
-                    <img src="image/Logo (1).png">
+                    <img src="image/Logo (1).png" class="img-fluid">
                 </div>
                 <div class="overflow-hidden mt-3 d-xl-block d-none">
                     <a class="float-start d-block media-d-none text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold text-dark me-4"
@@ -69,13 +76,14 @@
                 <div class="responsive d-xl-none mt-4 ">
                     <div class="icon">
                         <button class="icon  btn " onclick="opensidebar()">
-                            <img src="image/Hamburger.png" alt="Hamburger">
+                            <img src="image/Hamburger.png" alt="Hamburger " class="img-fluid">
                         </button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="index-1">
+            
             <div class="container d-lg-flex justify-content-center align-items-center mb-5 pb-5">
                 <div class="overflow-hidden col-lg-6 m-5" style="border-radius: 30px; border: 2px solid;">
                     <div class="d-flex flex-row div-1-img">
@@ -138,7 +146,7 @@
             </div>
         </div>
         <div>
-            <div style="background-color: #88A6F224;">
+            <div style="background-color: #88A6F224;" >
                 <div>
                     <img src="image/Shape2.png" width="100%" height="100%">
                 </div>
@@ -254,7 +262,7 @@
                                 I the absence of such capacities, communities tend to.</p>
                         </div>
                     </div>
-                    <div class="container d-flex align-items-center justify-content-center mt-5">
+                    <div class="container d-flex align-items-center justify-content-center mb-5">
                         <img class="img-fluid" src="image/image 10.png">
 
                     </div>
@@ -263,7 +271,7 @@
             </div>
         </div>
         <div>
-            <div class="container d-flex flex-row  ">
+            <div class="container d-flex flex-row mt-5 ">
                 <img class="m-lg-5 m-4" src="image/Lineline.png">
                 <h4 class="mt-lg-4 mt-2">PROJECTS WE HAVE DONE</h4>
             </div>
@@ -307,7 +315,7 @@
             </div>
         </div>
         <div>
-            <div class="index-2">
+            <div class="index-2 mt-5">
                 <div class="container d-flex flex-row  ">
                     <img class="m-lg-5 m-4" src="image/Lineline.png">
                     <h2 class="mt-lg-4 mt-2">OUR FOUNDER</h2>
@@ -369,7 +377,7 @@
                 </div>
             </div>
             <div>
-                <div class="index-3">
+                <div class="index-3 my-5">
                     <div class=" container p-lg-5 pt-1 mt-lg-5">
                         <h3 class=" px-5 pt-lg-5 text-white">The Executive Team</h3>
                         <p class="px-5 pt-lg-2 text-white">There’s nothing I really wanted to do in life that I wasn’t
@@ -431,11 +439,11 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="view-teams.html"><button class="btn btn-dark px-5 py-2 mb-3">View All</button></a>
+                        <a href="view-teams.html"><button class="btn btn-dark px-5 py-2 mb-3 mt-5 mt-lg-0">View All</button></a>
                     </div>
                 </div>
             </div>
-            <div class="index-4">
+            <div class="index-4 ">
                 <div class="container d-flex flex-row ">
                     <img class="m-lg-5 m-4" src="image/Lineline.png">
                     <h2 class="mt-lg-4 mt-2">UPCOMING EVENTS</h2>
@@ -463,11 +471,11 @@
                                 </a></div>
                         </div>
                     </div>
-                    <a href="view-events.html"><button class="btn btn-dark px-5 py-2">View All</button></a>
+                    <a href="view-events.html"><button class="btn btn-dark px-5 py-2 mb-5">View All</button></a>
                 </div>
 
             </div>
-            <div class="index-5">
+            <div class="index-5 ">
                 <div class="container d-flex flex-row">
                     <img class="m-lg-5 m-4" src="image/Lineline.png">
                     <h2 class="mt-lg-4 mt-2">LIVE WEBNIAR</h2>
@@ -494,8 +502,8 @@
                 </div>
 
             </div>
-            <div>
-                <div class="container d-flex flex-row ">
+            <div >
+                <div class="container d-flex flex-row my-5">
                     <img class="m-lg-5 m-4" src="image/Lineline.png">
                     <h2 class="mt-lg-4 mt-2">CONTACT US</h2>
                 </div>
@@ -552,12 +560,12 @@
                 </div>
 
             </div>
-            <div class=" footer">
-                <div class="container d-lg-flex flex-lg-row ">
-                    <div class="container px-5 px-lg-0">
+            <div class="footer">
+                <div class="container d-flex flex-column flex-lg-row  align-items-center text-center">
+                    <div class="container px-lg-5 px-lg-0">
                         <img class="img-fluid mt-5" src="image/Logo (1).png" alt="logo">
                     </div>
-                    <div class="container d-flex p-5">
+                    <div class="container d-flex  justify-content-center p-lg-5">
                         <div>
                             <ul class="list-unstyled container px-lg-5">
                                 <li>Home</li>
@@ -575,7 +583,7 @@
                             </ul>
                         </div>
                         <div>
-                            <ul class="list-unstyled container px-5">
+                            <ul class="list-unstyled container px-lg-5">
                                 <li>Connect</li>
                                 <li>Facebook</li>
                                 <li>Instagram</li>
@@ -584,18 +592,18 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="container mt-lg-5 px-2 pb-5 p-lg-0">
+                    <div class="container  mt-lg-5 px-2 pb-5 p-lg-0">
                         <div>
                             <h2>Subscribe to get latest updates</h2>
                         </div>
-                        <div>
-                            <input class="btn bg-white text-dark" type="email" id="email" name="email"
-                                placeholder="Your email">
-                            <button class="btn bg-white">Subscribe</button>
+                        <div  class="d-md-block d-flex flex-column align-items-center">
+                            <input class="btn bg-white text-dark mb-md-0 mb-3" type="email" id="email" name="email"  placeholder="Your email">
+                            <button class="btn bg-white ">Subscribe</button>
                         </div>
                     </div>
-
+    
                 </div>
             </div>
+            
     </main>
 </body>

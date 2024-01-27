@@ -277,4 +277,9 @@
 .news-2{
     border-radius: 30px; border: 2px solid;
 }
-
+.nav{
+    background-color: white;
+}
+.nav .scrolled{
+    background-color: white;
+}
