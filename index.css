@@ -278,8 +278,40 @@
     border-radius: 30px; border: 2px solid;
 }
 .nav{
-    background-color: white;
+  background-color: white;
 }
 .nav .scrolled{
     background-color: white;
 }
+.load{
+    background-image: url('image/Backgroundh.png');
+    height: 100vh;
+    
+}
+.load img{
+    animation: zoom 1.5s  infinite;
+}
+@keyframes zoom {
+    0% {
+      zoom: 110%;
+    }
+  
+    25% {
+     zoom: 120%;
+    }
+  
+    50% {
+     zoom: 130%;
+     
+    }
+  
+    75% {
+      zoom: 140%;
+    }
+  
+    100% {
+      
+      zoom: 150%;
+    }
+  }
+  
