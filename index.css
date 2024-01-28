@@ -1,16 +1,20 @@
-.index-1{
+.index-1 {
     background-image: url('image/Backgroundh.png');
     width: 100vw;
 }
+
 .side {
     display: none;
 }
+
 .div-1-text {
     animation: slideY 10s infinite;
 }
+
 .div-2 {
     height: 200px;
 }
+
 @keyframes slideY {
     0% {
         transform: translateY(0%);
@@ -83,6 +87,7 @@
     }
 
 }
+
 .div-5-1-1-img {
     animation: slides 10s infinite;
 }
@@ -146,49 +151,63 @@
 .div-5 {
     height: 250px;
 }
-.index-2{
+
+.index-2 {
     background-color: #DCE79C3D;
 }
-.index-3{
+
+.index-3 {
     background-image: url('image/Background6.png');
-     margin-top: -100px;
+    margin-top: -100px;
 }
-.index-3 h3{
+
+.index-3 h3 {
     margin-top: 150px;
 }
-.index-4{
-    background-color:#E7D6D652;
+
+.index-4 {
+    background-color: #E7D6D652;
 }
-.index-5{
+
+.index-5 {
     background: #E7D6D652;
 }
-.footer{
+
+.footer {
     background-color: #64989B;
-     color: white;
+    color: white;
 }
-.about-1{
+
+.about-1 {
     width: 100vw;
     background: linear-gradient(180deg, rgba(255, 165, 0, 0.1496) 0%, rgba(197, 156, 80, 0.2176) 36.98%, rgba(124, 83, 6, 0.1802) 100%);
 }
-.about-2{
+
+.about-2 {
     background: linear-gradient(180deg, rgba(86, 223, 64, 0.14) 0%, rgba(176, 62, 144, 0.0714) 100%);
 }
-.about-3{
+
+.about-3 {
     background: #DCE79C3D;
 }
-.about-4{
-    background: linear-gradient(180deg, rgba(119, 197, 57, 0.09) 0%, rgba(117, 185, 78, 0.0881297) 27.6%, rgba(110, 134, 171, 0.09) 60.94%, rgba(218, 20, 162, 0.0729) 100%);      
+
+.about-4 {
+    background: linear-gradient(180deg, rgba(119, 197, 57, 0.09) 0%, rgba(117, 185, 78, 0.0881297) 27.6%, rgba(110, 134, 171, 0.09) 60.94%, rgba(218, 20, 162, 0.0729) 100%);
 }
-.projects-1{
+
+.projects-1 {
     width: 100vw;
     background-image: url("image/Rectangle 2941project.png");
 }
-.aarambh{
- color: #5234B6;
+
+.aarambh {
+    color: #5234B6;
 }
-.projects-2{
+
+.projects-2 {
     background: #C2E9D1C2;
 }
+
 .box {
     background-color: #F8F6F6;
     border-radius: 40px;
@@ -197,41 +216,52 @@
 .box:hover {
     background-color: lightblue;
 }
-.events-1{
+
+.events-1 {
     width: 100vw;
     background-color: #237D6826;
 }
-.events-2{
-    background-color: #75CCF129; 
+
+.events-2 {
+    background-color: #75CCF129;
 }
-.events-3{
+
+.events-3 {
     background-color: #C6919E36;
 }
-.events-time{
+
+.events-time {
     color: plum;
 }
-.events-4{
+
+.events-4 {
     background: #B8B8B847;
 }
+
 .events-5 {
     width: 301px;
     height: 273px;
 }
-.teams-1{
+
+.teams-1 {
     width: 100vw;
     background-color: #BBEAF14D;
 }
+
 .Profile {
     background-image: url('image/Group 15151.png');
     width: 220px;
     height: 220px;
 }
-.teams-2{
+
+.teams-2 {
     background-image: url('image/Background.png');
 }
-.teams-3{
+
+.teams-3 {
     margin-top: 150px;
 }
+
 .scroll::-webkit-scrollbar {
     display: none;
 }
@@ -240,82 +270,114 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
-.contact-1{
+
+.contact-1 {
     width: 100vw;
-    background-color:#00FFFF40;
+    background-color: #00FFFF40;
 }
-.contact-2{
+
+.contact-2 {
     background-color: white;
 }
-.join-1{
+
+.join-1 {
     width: 100vw;
     background-color: #DBDEB140;
 }
-.events-info-1{
+
+.events-info-1 {
     width: 100vw;
     background-color: rgb(248, 231, 234);
 }
-.events-info-2{
-    border-radius: 30px; 
+
+.events-info-2 {
+    border-radius: 30px;
     border: 2px solid;
 }
-.view-events-1{
+
+.view-events-1 {
     width: 100vw;
-    background-color:#E7D6D652;
+    background-color: #E7D6D652;
 }
-.view-teams-1{
+
+.view-teams-1 {
     width: 100vw;
-    background-color:#E7D6D652;
+    background-color: #E7D6D652;
 }
-.aarambh-1{
-    width: 100vw;
-    background-color: rgb(248, 231, 234);
-}
-.aarambh-2{
-    border-radius: 30px; border: 2px solid;
-}
-.news-1{
+
+.aarambh-1 {
     width: 100vw;
     background-color: rgb(248, 231, 234);
 }
-.news-2{
-    border-radius: 30px; border: 2px solid;
+
+.aarambh-2 {
+    border-radius: 30px;
+    border: 2px solid;
 }
-.nav{
-  background-color: white;
+
+.news-1 {
+    width: 100vw;
+    background-color: rgb(248, 231, 234);
 }
-.nav .scrolled{
+
+.news-2 {
+    border-radius: 30px;
+    border: 2px solid;
+}
+
+.nav {
     background-color: white;
 }
-.load{
+
+.nav .scrolled {
+    background-color: white;
+}
+
+.load {
     background-image: url('image/Backgroundh.png');
     height: 100vh;
-    
+
 }
-.load img{
-    animation: zoom 1.5s  infinite;
+
+.load img {
+    animation: zoom 1.5s infinite;
 }
+
 @keyframes zoom {
     0% {
-      zoom: 110%;
+        zoom: 110%;
     }
-  
+
     25% {
-     zoom: 120%;
+        zoom: 120%;
     }
-  
+
     50% {
-     zoom: 130%;
-     
+        zoom: 130%;
+
     }
-  
+
     75% {
-      zoom: 140%;
+        zoom: 140%;
     }
-  
+
     100% {
-      
-      zoom: 150%;
+
+        zoom: 150%;
     }
-  }
-  
+}
+
+.scroll {
+    animation: scroll 20s infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+
+}
