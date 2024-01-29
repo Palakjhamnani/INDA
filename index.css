@@ -366,9 +366,13 @@
         zoom: 150%;
     }
 }
-
+.events-box{
+    width: 100vw; overflow: hidden;
+}
 .scroll {
     animation: scroll 20s infinite;
+    width: 100vw;
+    
 }
 
 @keyframes scroll {
